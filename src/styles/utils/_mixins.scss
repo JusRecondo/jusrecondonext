@@ -1,0 +1,18 @@
+/* Media queries */
+@mixin media-md {
+	@media screen and (min-width: $breakpoint-md) {
+		@content;
+	}
+}
+
+@mixin media-lg {
+	@media screen and (min-width: $breakpoint-lg) {
+		@content;
+	}
+}
+
+@mixin media-xl {
+	@media screen and (min-width: $breakpoint-xl) {
+		@content;
+	}
+}
