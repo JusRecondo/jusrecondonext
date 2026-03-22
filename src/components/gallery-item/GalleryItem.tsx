@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import type { GalleryItem } from '../../../types/gallery';
 import styles from './GalleryItem.module.scss';
 import { useState } from 'react';
@@ -29,7 +30,7 @@ const GalleryItem = ({ item }: Props) => {
           <p className={`${styles.itemInfo} ${showInfo && styles.showInfo}`}>
             {item.info}
           </p>
-          <img className={styles.image} src={item.content} alt={item.info} />
+          <Image width={450} height={450} className={styles.image} src={item.content} alt={item.info} />
         </>
       ) : item.type === 'video' ? (
         <iframe

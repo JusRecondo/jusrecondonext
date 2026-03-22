@@ -1,5 +1,5 @@
 import type { GalleryItem as GalleryItemType } from '../../../types/gallery';
-import GalleryItem from '../galleryItem';
+import GalleryItem from '../gallery-item';
 import styles from './Gallery.module.scss';
 
 interface Props {

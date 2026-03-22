@@ -1,4 +1,4 @@
-import CustomList from '@/components/customList';
+import CustomList from '@/components/custom-list';
 import styles from './page.module.scss';
 import data from '@/data/links-data.json';
 
