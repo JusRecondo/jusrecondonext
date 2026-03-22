@@ -1,0 +1,31 @@
+@import '../../styles/utils/utils.scss';
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  position: relative;
+  min-height: 120px;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: $dark-translucid;
+
+  @include media-lg {
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+  }
+
+  @include media-xl {
+    padding: 1rem 4rem;
+  }
+
+  a:hover,
+  a:focus {
+    border: none;
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../styles/utils/utils.scss';
+
+.navbar {
+  color: $light;
+  z-index: 99;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0 20px;
+  top: 0;
+  right: -100%;
+  background-color: $dark;
+
+  li {
+    padding: 0 10px;
+  }
+
+  /* mobile open menu */
+  &.openMenu {
+    right: 0;
+    transition: right 0.2s ease;
+    -webkit-transition: right 0.2s ease;
+  }
+
+  /* desktop */
+  @include media-lg {
+    height: 100%;
+    position: static;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: none;
+  }
+
+  .menuLink {
+    font-size: 20px;
+
+    &.active,
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid $light;
+    }
+  }
+}
+
+/* mobile menu button */
+.menuButton {
+  display: flex;
+  background: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 100;
+  color: $light;
+
+  @include media-lg {
+    display: none;
+  }
+}

@@ -3,6 +3,7 @@ import '../styles/globals.scss';
 import HydraBackground from '@/components/hydra-background/HydraBackground';
 import Footer from '@/components/footer';
 import Main from '@/components/main';
+import Header from '@/components/header';
 
 export const metadata: Metadata = {
   title: "JR",
@@ -19,11 +20,12 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
-        <HydraBackground />
+        <Header />
         <Main>
           {children}
         </Main>
         <Footer />
+        <HydraBackground />
       </body>
     </html>
   );
