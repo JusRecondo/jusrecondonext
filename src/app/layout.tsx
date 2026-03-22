@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import '../styles/globals.scss';
 import HydraBackground from '@/components/hydra-background/HydraBackground';
-import Footer from '@/components/footer/Footer';
+import Footer from '@/components/footer';
 import Main from '@/components/main';
 
 export const metadata: Metadata = {

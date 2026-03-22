@@ -1,0 +1,32 @@
+@import '../../styles/utils/utils.scss';
+
+.footer {
+  padding: 16px 10px 0 10px;
+  margin-top: 2rem;
+  border-top: 1px solid $light;
+  color: $light;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contactListItem {
+  flex: 50%;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+@include media-md {
+  .contactList {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+
+  .contactListItem {
+    flex-basis: unset;
+  }
+}

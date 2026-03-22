@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 300px);
+  margin-top: 140px;
+
+  @media (min-width: 650px) and (max-width: 767px) {
+    padding: 2rem 4rem;
+  }
+}
