@@ -1,7 +1,17 @@
+import CustomList from '@/components/customList';
 import styles from './page.module.scss';
+import data from '@/data/links-data.json';
 
 const Links = () => {
-  return <div>Links</div>;
+  return (
+    <div className={styles.links}>
+      <section className="links-section">
+        <CustomList listItems={data.rrss} />
+        <CustomList listItems={data.instruments} />
+        <CustomList listItems={data.recordings} />
+      </section>
+    </div>
+  );
 };
 
 export default Links;

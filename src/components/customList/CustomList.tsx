@@ -17,7 +17,7 @@ const CustomList = ({ listItems }: Props) => {
             </a>
           ) : (
             <p>{item.text}</p>
-          )}
+          )} /
         </li>
       ))}
     </ul>
