@@ -1,0 +1,17 @@
+[
+    {
+        "id": "vid1",
+        "type": "video",
+        "content": "https://www.youtube.com/embed/Yzfmkjxv2CY?si=oX1xft44cCrONL-w"
+    },
+    {
+        "id": "vid2",
+        "type": "video",
+        "content": "https://www.youtube.com/embed/CpTUpcRvifg?si=82ESLMlH7hFDtlky"
+    },
+    {
+        "id": "vid3",
+        "type": "video",
+        "content": "https://www.youtube.com/embed/A8GSiAP6vY4?si=-uRaj0IQfZn-jKhe"
+    }
+]

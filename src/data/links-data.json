@@ -1,0 +1,61 @@
+{
+    "rrss": [
+
+        {
+            "text": "Spotify",
+            "url": "https://open.spotify.com/artist/4i0NoIde573RqBbCdkoAUD?si=2hfBcrqeRIuELZl4r7knqQ"
+        },
+        {
+            "text": "Tidal",
+            "url": "https://tidal.com/browse/artist/22372858"
+        },
+        {
+            "text": "Bandcamp",
+            "url": "https://jusrecondo.bandcamp.com/"
+        },
+        {
+            "text": "YouTube",
+            "url": "https://www.youtube.com/@jusrecondo"
+        },
+        {
+            "text": "Instagram",
+            "url": "https://www.instagram.com/jusrecondo/"
+        }
+    ],
+    "instruments": [
+        {
+            "text": "Sinte I",
+            "url": "https://jusrecondo.github.io/w-synth-mobile/"
+        },
+        {
+            "text": "Sinte II",
+            "url": "https://jusrecondo.github.io/texto-sonoro-visual/"
+        },
+        {
+            "text": "Sinte III",
+            "url": "https://jusrecondo.github.io/string-synth/"
+        }
+    ],
+    "recordings": [
+        {
+            "text": "Interpretación de un cuadro",
+            "url": "https://www.youtube.com/shorts/G2q9mcsSVsI"
+        },
+        {
+            "text": "Sombras de octubre (Pablo Freiberg)",
+            "url": "https://www.youtube.com/watch?v=A8GSiAP6vY4"
+        },
+        {
+            "text": "Slide (Panayiotis Kokoras)",
+            "url": "https://www.youtube.com/watch?v=lffOLYvgIcg"
+        },
+        {
+            "text": "Fragmento Set NOISE",
+            "url": "https://www.youtube.com/watch?v=Yzfmkjxv2CY"
+        },
+        {
+            "text": "Entrevista",
+            "url": "https://www.youtube.com/watch?v=RbQ-kzCaKDg"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": "img1",
+        "type": "image",
+        "content": "/images/jusrecondo-naufragio-merlo1.webp",
+        "info": "1/4/23 en El naufragio (Merlo) 📸@andaira.ph"
+    },
+    {
+        "id": "emb5",
+        "type": "embed",
+        "content": "https://bandcamp.com/EmbeddedPlayer/album=1888719494/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/",
+        "info": "Escuchar EP 19225"
+    },
+    {
+        "id": "img3",
+        "type": "image", 
+        "content": "/images/jusrecondo-naufragio-merlo3.webp",
+        "info": "1/4/23 en El naufragio (Merlo) 📸@andaira.ph"
+    },
+    {
+        "id": "emb5",
+        "type": "embed",
+        "content": "https://bandcamp.com/EmbeddedPlayer/album=3989781046/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/",
+        "info": "Escuchar EP 19225"
+    },
+    {
+        "id": "img2",
+        "type": "image", 
+        "content": "/images/jusrecondo-naufragio-merlo2.webp",
+        "info": "1/4/23 en El naufragio (Merlo) 📸@andaira.ph"
+    },
+    {
+        "id": "emb1",
+        "type": "embed",
+        "content": "https://bandcamp.com/EmbeddedPlayer/album=121350350/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/transparent=true/",
+        "info": "Escuchar EP 091223"
+    },
+    {
+        "id": "img5",
+        "type": "image", 
+        "content": "/images/jusrecondo-naufragio-merlo5.webp",
+        "info": "1/4/23 en El naufragio (Merlo) 📸@andaira.ph"
+    },
+    {
+        "id": "emb2",
+        "type": "embed", 
+        "content": "https://bandcamp.com/EmbeddedPlayer/album=1844072498/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/track=192056765/transparent=true/",
+        "info": "Escuchar track 2591"
+    },
+    {
+        "id": "img5",
+        "type": "image", 
+        "content": "/images/jusrecondo-naufragio-merlo6.webp",
+        "info": "1/4/23 en El naufragio (Merlo) 📸@andaira.ph"
+    }
+]
