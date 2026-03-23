@@ -6,17 +6,17 @@ const Bio = () => {
       <p>
         Jus Recondo es músique y programadore originarie de Merlo, Bs. As.
         (1994). <br />
-        Egresó del profesorado de música del Conservatorio “Alberto Ginastera”
-        en 2019 y luego cursó en la Diplomatura de música contemporánea del
-        Conservatorio “Manuel de Falla”, profundizando en la interpretación de
-        obras para guitarra de los siglos XX y XXI.
+        Se formó como docente de música con orientación en guitarra en el
+        Conservatorio “Alberto Ginastera” y continuó sus estudios en música
+        contemporánea en el Conservatorio “Manuel de Falla”, especializándose en
+        la interpretación de obras de los siglos XX y XXI.
       </p>
       <p>
         Desde 2009 ha participado en diversos proyectos musicales como
-        guitarrista, bajista y/o en los sintetizadores, tocando estilos desde
-        pop hasta la cumbia, pasando por el blues, el rock alternativo y el
-        punk. También ha dado conciertos de guitarra solista y con ensambles de
-        música de cámara.
+        guitarrista, bajista y/o en los sintetizadores, recorriendo estilos que
+        van desde el blues y la cumbia hasta el rock alternativo y el punk.
+        También se ha presentado en conciertos solistas y en ensambles de música
+        de cámara.
       </p>
       <p>
         A partir 2020 se dedicó a la exploracion sonora y composicion a través
@@ -68,14 +68,21 @@ const Bio = () => {
           de cambios en densidad, timbres y grados de organización. Utiliza como
           recursos principales la guitarra eléctrica, los sintetizadores
           experimentales que desarrolló y que suenan desde su celular, junto con
-          samples de sonidos procesados, sumando ocasionalmente otros elementos
-          como radios am/fm o colaborando con otres músiques para improvisar.
+          samples de sonidos procesados.
+        </strong>
+      </p>
+
+      <p>
+        <strong>
+          Su enfoque propone una narrativa abstracta en constante
+          transformación, combinando performance, tecnología y experimentación
+          sonora.
         </strong>
       </p>
 
       <p>
         Jus Recondo es una persona trans no binarie y autista, siendo estos dos
-        aspectos parte de su identidad ambos se reflejan en su música.
+        aspectos parte de su identidad, ambos se reflejan en su música.
       </p>
 
       <p>
