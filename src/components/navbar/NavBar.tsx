@@ -36,10 +36,11 @@ const NavBar = () => {
       </button>
 
       <ul
+        key={pathname}
         className={openMenu ? `${styles.menu} ${styles.openMenu}` : styles.menu}
       >
         {menuItems.map((item, idx) => {
-          const isActive = pathname === item.path;
+          const isActive = pathname === item.path  || pathname === item.path + '/';
 
           return (
             <li key={idx}>
