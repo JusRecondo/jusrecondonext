@@ -25,22 +25,21 @@ export default function IframeWithLoader({
   return (
     <div style={{ position: 'relative' }} className={className}>
       {loading && (
-          <Oval
-            visible={loading}
-            height="80"
-            width="80"
-            color="#ffffff"
-            secondaryColor="#000000"
-            ariaLabel="oval-loading"
-            wrapperStyle={{position: 'absolute',
-              inset: 0,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              background: 'rgba(0,0,0,0.2)',
-              backdropFilter: 'blur(4px)',
-              zIndex: 1,}}
-            />
+         <Oval
+        visible={loading}
+        height="80"
+        width="80"
+        color="#ffffff"
+        secondaryColor="#000000"
+        ariaLabel="oval-loading"
+        wrapperStyle={{position: 'absolute',
+          inset: 0,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          background: 'rgba(0,0,0,0.2)',
+          backdropFilter: 'blur(4px)'}}
+        />
       )}
 
       <iframe
@@ -54,7 +53,7 @@ export default function IframeWithLoader({
         }}
         allow={allow}
         referrerPolicy={referrerPolicy}
-        allowFullScreen
+        allowFullScreen={allowFullScreen}
       />
     </div>
   );
