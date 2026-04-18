@@ -73,10 +73,17 @@ const Catalog = () => {
       </p>
       <h2>2026</h2>
 
-      <p>Próximamente...</p>
+      <p>El 17 de Abril se publico el EP <a
+          href="https://fuegoamigodiscos.bandcamp.com/album/3-piezas-para-guitarra-y-cuchillo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          “3 Piezas para Guitarra y Cuchillo”
+        </a>{' '}
+        (Fuego Amigo Discos).</p>
 
       <p>
-        Las piezas estan disponibles en todas las plataformas incluyendo
+        Todo el catálogo esta disponibles en todas las plataformas incluyendo
         Bandcamp.
       </p>
     </div>
